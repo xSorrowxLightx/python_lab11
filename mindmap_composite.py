@@ -22,6 +22,6 @@ class MindMapComposite:
         return shapes.get(self.shape, "{}")
 
     def display(self, indent=0):
-        print(" " * indent + f"{self.name} {self.shape}")
+        print(" " * indent + str(self))
         for child in self.children:
             child.display(indent + 1)

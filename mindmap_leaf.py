@@ -12,6 +12,6 @@ class MindMapLeaf:
         print(" " * indent + str(self))
 
     def get_shape_representation(self):
-        shapes = {"circle": "(({}))", "oval": "({})", "square": "[{}]", "cloud": "){}(", "hexagon": "{{{{{}}}}}", "bang": ")){}(("}
+        shapes = {"circle": "(({}))", "oval": "({})", "square": "[{}]", "cloud": "){}(", "hexagon": "{{{{{}}}}}", "bang": ")){}((", "diamond": "<{}>", "doubled": "<<{}>>"}
         return shapes.get(self.shape, "{}")
 
