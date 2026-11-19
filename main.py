@@ -35,7 +35,7 @@ def main():
         root.add( setting )
 
         conflicts = MindMapComposite( "Big wow", "bang" )
-        conflicts.add( MindMapLeaf( "I hope this comes out looking like a clusterfuck", "diamond" ) )
+        conflicts.add( MindMapLeaf( "I hope this comes out looking like a clusterfuck", "bang" ) )
         conflicts.add( MindMapLeaf( "now that i have this maybe ill use it for my projects in the future idk", "oval" ) )
         conflicts.add( MindMapLeaf( "will i be able to in a concise and useful way that will benefit my projects in the long run? probably not", "cloud" ) )
         root.add( conflicts )
